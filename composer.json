@@ -1,0 +1,21 @@
+{
+    "name": "denour/mailer",
+    "description": "Una libreria para enviar correos electronicos detallados",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nestor Castro",
+            "email": "nestweb20@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^5.2"
+    },
+    "autoload":{
+        "psr-4": {
+            "Denour\\Mailer\\": "src/"
+        }
+    }
+
+}
