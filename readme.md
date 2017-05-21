@@ -1,6 +1,6 @@
-#Mailer
+# Mailer
 
-###Usage
+### Usage
 ```
 $config = new \Denour\Mailer\Config();
 $config->Email = 'email@email.com';
